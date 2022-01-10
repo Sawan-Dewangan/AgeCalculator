@@ -1,0 +1,44 @@
+<html>
+<head>
+   <title>
+       Age Calculator
+   </title> 
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="details-sect">
+                <h2>Age Calculator</h2>
+                <p>Calculate Age from date of Birth and current date</p>
+            </div>
+            
+            <div class="form-sect">
+                <form>
+                    <div class="input-sect">
+                        <label>Date of Birth:</label>
+                        <br>
+                        <input id="dob" class ="input-field" type="date" value="2022-01-09">
+                    </div>   
+                    <div class="input-sect">
+                        <label>Age at the date of:</label>
+                        <br>
+                        <input  id="cd" class="input-field" type="date" value="2022-01-09">
+                    </div>           
+                </form>
+                <button class="btn" type="submit" onclick="calculate()">Submit</button>
+            </div>
+    
+            <div class="result-sect">
+                <h4>Result:</h4>
+                <p id="result"></p>
+                <p id="error"></p>
+            </div>
+    
+        </div>
+    
+    </div>
+    <script src="calculation.js">
+    </script>
+</body>
+</html>

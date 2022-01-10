@@ -1,0 +1,93 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+ background-color: #405d69;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    margin-top: 200px;
+}  
+.container{
+    max-height: 425px;
+    background-color:#f5b731;
+    width: 500px;
+    border-radius: 5px;
+}
+.details-sect{
+    text-align: center;
+    font-weight: 700;
+}
+
+.input-field{
+    border: 2px solid black;
+    width: 240px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.form-sect{
+    text-align: center;
+}
+
+.input-sect{
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.btn{
+    background-color:#35afe8;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.result-sect{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dis-appear{
+    display: none;
+}
+
+.appear{
+    display: block;
+}
+
+#error{
+    color: red;
+}
+
+@media only screen and (max-device-width:400px){
+    .container{
+        max-height: 1000px;
+        width: 90%;
+    }
+
+    .details-sect{
+        font-size: 2rem;
+    }
+    .input-sect{
+        font-size: 2.5rem;
+    }
+    .input-field{
+        width: 50%;
+        height: 50px;
+        font-size: 2rem;
+    }
+    .btn{
+        width: 50%;
+        height:50px;
+        font-size:2rem;   
+    }
+    .result-sect{
+        font-size:2rem;
+    }
+}
